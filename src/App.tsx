@@ -7,7 +7,6 @@ import "typeface-rubik";
 import "@fontsource/ibm-plex-mono";
 
 // TODO: Replace with your config
-
 const firebaseConfig = {
   apiKey: "AIzaSyAoE1F2o3WBpJaBh4ikFeVaEI6aFeyu0ck",
   authDomain: "ecclesia-church.firebaseapp.com",
@@ -19,8 +18,8 @@ const firebaseConfig = {
 // const locales = {
 //     "en-US": "English (United States)",
 //     "es-ES": "Spanish (Spain)",
-//     "de-DE": "German"
-// };
+//     "de-DE": "German
+// 
 
 type Event = {
   id: string;
@@ -38,7 +37,7 @@ const eventsCollection = buildCollection<Event>({
   name: "Events",
   singularName: "Event",
   path: "events",
-  permissions: ({ authController }) => ({
+  permissions: ({}) => ({
     read: true,
     edit: true,
     create: true,
@@ -101,7 +100,7 @@ const usersCollection = buildCollection<Users>({
   name: "Users",
   singularName: "User",
   path: "users",
-  permissions: ({ authController }) => ({
+  permissions: ({  }) => ({
     read: true,
     edit: true,
     create: true,
@@ -158,7 +157,7 @@ const podcastsCollection = buildCollection<Podcast>({
   name: "Podcasts",
   singularName: "Podcast",
   path: "podcasts",
-  permissions: ({ authController }) => ({
+  permissions: ({  }) => ({
     read: true,
     edit: true,
     create: true,
@@ -192,7 +191,7 @@ const givingCollection = buildCollection<Giving>({
   name: "Givings",
   singularName: "Giving",
   path: "givings",
-  permissions: ({ authController }) => ({
+  permissions: ({ }) => ({
     read: true,
     edit: true,
     create: true,
