@@ -152,6 +152,8 @@ type Podcast = {
   link: string;
 };
 
+
+
 const podcastsCollection = buildCollection<Podcast>({
   name: "Podcasts",
   singularName: "Podcast",
