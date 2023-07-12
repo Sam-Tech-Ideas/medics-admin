@@ -1,4 +1,4 @@
-import { EnumValues } from "firecms";
+
 
 export enum categories {
   "Condoms" = "Condoms",
