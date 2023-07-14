@@ -7,4 +7,8 @@ export enum categories {
   "Feminine Hygiene" = "Feminine Hygiene",
   "Pregnancy Test" = "Pregnancy Test",
   "Sexual Health" = "Sexual Health",
+  "Menstrual health" = "Menstrual health",
+  "Male aphrodisiac" = "Male aphrodisiac",
+  "Delay sprays" = "Delay sprays"
+
 }
