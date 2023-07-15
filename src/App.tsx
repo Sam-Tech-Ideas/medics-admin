@@ -120,6 +120,7 @@ const productsCollection = buildCollection<Product>({
       dataType: "string",
       storage: {
         storagePath: "products",
+        storeUrl: true,
       },
     },
     category: {
@@ -128,7 +129,7 @@ const productsCollection = buildCollection<Product>({
       enumValues: categories,
       validation: { required: true },
 
-      //i want user to selct from a list
+
     },
     quantity: {
       name: "Quantity",
