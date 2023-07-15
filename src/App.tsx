@@ -119,8 +119,7 @@ const productsCollection = buildCollection<Product>({
       name: "Product image",
       dataType: "string",
       storage: {
-        storagePath: "images",
-        acceptedFiles: ["product/*"],
+        storagePath: "products",
       },
     },
     category: {
@@ -128,9 +127,8 @@ const productsCollection = buildCollection<Product>({
       dataType: "string",
       enumValues: categories,
       validation: { required: true },
-      
+
       //i want user to selct from a list
-      
     },
     quantity: {
       name: "Quantity",
