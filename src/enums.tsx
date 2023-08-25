@@ -9,6 +9,7 @@ export enum categories {
   "Sexual Health" = "Sexual Health",
   "Menstrual health" = "Menstrual health",
   "Male aphrodisiac" = "Male aphrodisiac",
-  "Delay sprays" = "Delay sprays"
-
+  "Delay sprays" = "Delay sprays",
+"Pain Killer"= "Pain Killer",
+  
 }
